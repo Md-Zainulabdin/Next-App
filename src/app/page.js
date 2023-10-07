@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from './components/Navbar';
-import Button from './components/Button';
+import Counter from './components/Counter';
 
 const Home = () => {
   return (
     <>
-      <Navbar />
+      <Counter />
     </>
   )
 }
