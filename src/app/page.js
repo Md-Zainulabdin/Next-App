@@ -1,10 +1,10 @@
 import React from 'react'
-import Counter from './components/Counter';
+import Theme from './components/Theme';
 
 const Home = () => {
   return (
     <>
-      <Counter />
+      <Theme />
     </>
   )
 }
