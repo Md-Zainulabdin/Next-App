@@ -1,12 +1,16 @@
 import React from 'react'
-import Theme from './components/Theme';
+import DataFetching from './components/DataFetching';
 
 const Home = () => {
   return (
     <>
-      <Theme />
+      <DataFetching />
     </>
   )
 }
 
 export default Home;
+
+// useEffect
+
+// useState
