@@ -1,11 +1,17 @@
+import Link from "next/link";
 import React from "react";
-import Button from "./Button";
 
 const Navbar = () => {
-  return <div className="navbar w-full flex justify-between items-center px-12 border-b">
-    <div className="logo text-2xl font-bold text-[--text-color]">Next App</div>
-    <Button text={"Contact Us"}/>
-  </div>; 
+  return <nav className='border-b flex items-center justify-between px-[50px] w-full h-[70px]'>
+  <div className="logo">
+    <Link href={'/'}>Logo</Link>
+  </div>
+
+  <div className="space-x-4">
+    <Link href={'/users'}>User</Link>
+    <Link href={'/admin'}>Admin</Link>
+  </div>
+</nav>
 };
 
 export default Navbar;
